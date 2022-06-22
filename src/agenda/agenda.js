@@ -68,7 +68,7 @@ export default class Agenda extends Component {
             selected:[],
             cellHeight:(60 / 4),
             showModal:false,
-            locale:"fr",
+            locale:"br",
             rowsPerHour:4,
             numberOfDays:4,
             startDate: new Date()
@@ -169,8 +169,8 @@ export default class Agenda extends Component {
 
     render() {
         var AgendaItem = function(props) {
-            console.log( ' item component props' , props)
-            return <div style={{display:'block', position:'absolute' , background:'#FFF'}}>{props.item.name} <button onClick={()=> props.edit(props.item)}>Edit </button></div>
+            console.log( ' adereços de componentes dos itens' , props)
+            return <div style={{display:'block', position:'absolute' , background:'#FFF'}}>{props.item.name} <button onClick={()=> props.edit(props.item)}>Editar </button></div>
         }
         return (
 
@@ -180,10 +180,10 @@ export default class Agenda extends Component {
             <button  className="button-control" onClick={this.zoomIn}> <i className="zoom-plus-icon"></i> </button>
             <button  className="button-control" onClick={this.zoomOut}> <i className="zoom-minus-icon"></i> </button>
             <button  className="button-control" onClick={this._openModal}> <i className="schedule-icon"></i> </button>
-            <button  className="button-control" onClick={this.changeView.bind(null , 7)}> {moment.duration(7, "days").humanize()}  </button>
-            <button  className="button-control" onClick={this.changeView.bind(null , 4)}> {moment.duration(4, "days").humanize()}  </button>
-            <button  className="button-control" onClick={this.changeView.bind(null , 3)}> {moment.duration(3, "days").humanize()}  </button>
-            <button  className="button-control" onClick={this.changeView.bind(null , 1)}> {moment.duration(1, "day").humanize()} </button>
+            <button  className="button-control" onClick={this.changeView.bind(null , 7)}> {moment.duration(7, "dias").humanize()}  </button>
+            <button  className="button-control" onClick={this.changeView.bind(null , 4)}> {moment.duration(4, "dias").humanize()}  </button>
+            <button  className="button-control" onClick={this.changeView.bind(null , 3)}> {moment.duration(3, "dias").humanize()}  </button>
+            <button  className="button-control" onClick={this.changeView.bind(null , 1)}> {moment.duration(1, "dia").humanize()} </button>
             </div>
 
             <ReactAgenda
@@ -193,14 +193,14 @@ export default class Agenda extends Component {
             startAtTime={8}
             endAtTime={23}
             cellHeight={this.state.cellHeight}
-            locale="fr"
+            locale="br"
             items={this.state.items}
             numberOfDays={this.state.numberOfDays}
             headFormat={"ddd DD MMM"}
             rowsPerHour={this.state.rowsPerHour}
             itemColors={colors}
             helper={true}
-            view="calendar"
+            view="calendário"
             autoScale={false}
             fixedHeader={true}
             onRangeSelection={this.handleRangeSelection.bind(this)}
