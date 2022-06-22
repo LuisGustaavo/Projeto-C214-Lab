@@ -36,7 +36,7 @@ function registerValidSW(swUrl) {
             if (navigator.serviceWorker.controller) {
               console.log('Rode a página novamente.');
             } else {
-              console.log('Contenúdo de cache.');
+              console.log('Conteúdo de cache.');
             }
           }
         };
@@ -64,7 +64,7 @@ function checkValidServiceWorker(swUrl) {
       }
     })
     .catch(() => {
-      console.log('Sem conecção com a internet. O app está no seu modo offline.');
+      console.log('Sem conexão com a internet. O app está no seu modo offline.');
     });
 }
 
