@@ -1,3 +1,4 @@
+[![Projeto de C214](https://github.com/LuisGustaavo/Projeto-C214-Lab/actions/workflows/node.js.yml/badge.svg)](https://github.com/LuisGustaavo/Projeto-C214-Lab/actions/workflows/node.js.yml)
 <h1 align = "center">Agenda Médica</h1>
 
 <p>O projeto de C214 consiste em uma aplicação básica de cadastro de horários de pacientes em uma agenda médica com o intuito de mostrar seus horários para o médico responsável com uma melhor organização.</p>
