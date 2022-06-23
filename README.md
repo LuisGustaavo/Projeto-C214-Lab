@@ -19,17 +19,43 @@
 - Excluir horários
 
 ### 📋 Pré-requisitos para execução
-- IDE para execução utilizada: Visual Studio Code
+- IDE para execução de códigos Javascript, HTML e CSS (ex: Visual Studio Code)
+- React v17.0
+- npm 
 
-### 🚀 Para acessar o projeto e executá-lo
+### 🚀 Começando
+Para obter uma cópia do projeto a fim de operá-lo/testá-lo de sua máquina, clone o repositório em uma pasta na sua máquina:
 ```
 $ git clone https://github.com/LuisGustaavo/Projeto-C214-Lab.git
-
-$ cd Projeto-C214-Lab
-
-$ npm start
-
 ```
+
+Pasta do projeto:
+```
+$ cd Projeto-C214-Lab
+```
+
+Para instalar as bibliotecas necessárias:
+```
+$ npm install
+```
+
+Para executar a aplicação:
+```
+$ npm start
+```
+
+### 🛠️ Construído com
+**IDE**: [Visual Studio Code](https://code.visualstudio.com/)
+
+**Linguagens**: [Html, CSS e Javascript](https://www.devmedia.com.br/primeiros-passos-no-html5-javascript-e-css3/25647)
+
+**Gerenciamento de dependências**: [npm](https://www.npmjs.com/)
+
+**Controle de versões**: [GitHub](https://github.com/)
+
+**Framework de teste**: [JestJs](https://jestjs.io/pt-BR/)
+
+**Integração Contínua**: [GitHub Actions](https://github.com/features/actions)
 
 ## ✒️ Autores
 
