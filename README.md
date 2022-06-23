@@ -21,7 +21,7 @@
 ### 📋 Pré-requisitos para execução
 - IDE para execução utilizada: Visual Studio Code
 
-### 🚀 Para acessar o projeto e
+### 🚀 Para acessar o projeto e executá-lo
 ```
 $ git clone https://github.com/LuisGustaavo/Projeto-C214-Lab.git
 
