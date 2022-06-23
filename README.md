@@ -45,6 +45,17 @@ Para executar a aplicação:
 $ npm start
 ```
 
+
+### ⚙️ Executando os testes
+A implementação dos testes de unidade foram feitas utilizando o framework de teste para Node.js chamado Jest e foram implementadas os casos de teste para o react.
+
+**Para execução dos testes via terminal:**
+
+**1°)** Nela deve ser executado o seguinte comando:
+```
+ npm test
+```
+
 ### 📦 Desenvolvimento
 
   📂PROJETO-C214-LAB
