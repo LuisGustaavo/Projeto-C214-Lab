@@ -45,6 +45,34 @@ Para executar a aplicação:
 $ npm start
 ```
 
+### 📦 Desenvolvimento
+
+  📂PROJETO-C214-LAB
+      
+      📂.github\workflows
+          node.js.yml    
+      📂public
+          favicon.ico
+          index.html
+          manifest.json
+       📂src
+          📂agenda
+              📂 __snapshots__
+                 agenda.test.js
+               agenda.js
+          App.css
+          index.css
+          index.js
+          logo.svg
+          registerServiceWorker.js
+       .gitignore
+       conf.env
+       lib
+       package-lock.json
+       package.json
+       README.md
+       yarn.lock
+
 ### 🛠️ Construído com
 **IDE**: [Visual Studio Code](https://code.visualstudio.com/)
 
