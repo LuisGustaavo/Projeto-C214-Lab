@@ -1,6 +1,6 @@
 <h1 align = "center">Agenda Médica</h1>
 
-<p>O projeto de C214 tem como intuito a aplicação básica de cadastro de horários de pacientes em uma agenda médicacom o intúito de mostrar seus horários para o médico responsável com uma melhor organização.</p>
+<p>O projeto de C214 consiste em uma aplicação básica de cadastro de horários de pacientes em uma agenda médica com o intuito de mostrar seus horários para o médico responsável com uma melhor organização.</p>
 
 <p>Durante o semestre foi disponibilizado materiais na disciplina de Engenharia de Software (C214) que possibilita a execução do projeto proposto. </p>
 
