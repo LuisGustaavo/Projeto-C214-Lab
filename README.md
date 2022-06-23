@@ -51,7 +51,6 @@ A implementação dos testes de unidade foram feitas utilizando o framework de t
 
 **Para execução dos testes via terminal:**
 
-**1°)** Nela deve ser executado o seguinte comando:
 ```
  npm test
 ```
